@@ -4,38 +4,16 @@ Production-oriented AI assistant for security teams. It analyzes logs, predicts 
 
 ## Contribution Scope
 
-This fork is used to document my upstream contribution scope to the original `nghiatran0401/cyber-llm-agent` project.
+This fork documents my upstream contribution scope to the original `nghiatran0401/cyber-llm-agent` project.
 
-My verified contribution in the upstream git history is focused on the ReAct runtime, G1/G2 execution flow, trace contract alignment, frontend trace rendering, benchmark artifacts, and related test/documentation updates.
+My verified work in the upstream history focused on:
 
-### Contribution Areas
+- shared ReAct runtime helpers, stop-reason handling, and runtime guardrails
+- G1/G2 execution flow updates, including budget-aware orchestration
+- trace contract alignment across backend services and the web trace panel
+- supporting tests, benchmark artifact refreshes, and delivery/worklog documentation
 
-- Shared ReAct runtime helpers for trace creation, stop-reason handling, semantic reuse, and cooldown controls
-- G1 and G2 service/runtime changes to keep execution flow, trace output, and budget handling consistent
-- Frontend trace contract alignment and trace readability improvements in the web monitor
-- Test coverage expansion for runtime helpers, API endpoints, G1/G2 services, and multi-agent behavior
-- Benchmark artifact refresh and supporting delivery/worklog documentation
-
-### Verified Upstream Commits
-
-- `aa65909` Add shared ReAct runtime helpers for trace creation and stop-reason handling
-- `99b2d6d` Refine G1 service flow to keep trace output and stop reasons consistent
-- `b16d9f7` Bring G2 service in line with shared trace and stop-reason rules
-- `8a53721` Expand ReAct unit tests for trace integrity and deterministic helper behavior
-- `62b9a72` Clarify Person 2 ownership, priorities, and week-by-week execution plan
-- `018ad0f` Add a detailed worklog README with edited files, rationale, and rollout steps
-- `085ccbb` Define shared ReAct trace and runtime helpers
-- `3fe1fb8` Wire G1 execution into shared runtime controls
-- `45747e2` Add budget-aware execution flow for G2
-- `d55b1f8` Align streamed trace metadata with the frontend contract
-- `3ca9eee` Refresh Person 2 onboarding notes and progress log
-- `f6abfef` Strengthen runtime tool controls with semantic reuse and cooldowns
-- `3de1c78` Version the trace contract and expand runtime metrics
-- `2a48c73` Improve trace readability and document ReAct operating rules
-- `05f2d97` Update the Person 2 worklog with verification and recheck notes
-- `ca7e1ba` chore: add latest benchmark artifacts
-
-These entries come from the upstream repository history rather than local-only fork edits. This README does not present the entire system as my sole work; the project remains a multi-contributor codebase.
+Representative upstream commits authored by me include `aa65909`, `99b2d6d`, `b16d9f7`, `085ccbb`, `45747e2`, `d55b1f8`, `f6abfef`, `3de1c78`, `2a48c73`, and `ca7e1ba`. This README does not present the full system as my sole work; the project remains a multi-contributor codebase.
 
 ## Why This Exists
 
